@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "author-hull-problems": {
+      "source": "hull.aberter0x3f.top",
+      "sourceType": "well-known",
+      "computedHash": "c4a76ef85667bd070be48da3da6bf75fc56dfc908d404b9717b1a184ef9f6792"
+    },
+    "documentation": {
+      "source": "hull.aberter0x3f.top",
+      "sourceType": "well-known",
+      "computedHash": "9fee28670776c0dee88888492f7f53e88d7096f2d632418bd623ba1316af97b3"
+    }
+  }
+}

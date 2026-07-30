@@ -1,0 +1,280 @@
+{
+  "nodes": {
+    "cplib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785347537,
+        "narHash": "sha256-E0dphDXKbiYVeM9JtBhosZj5AVOkHQMdtToeECfxpgo=",
+        "owner": "rindag-devs",
+        "repo": "cplib",
+        "rev": "70e8a23c263427b28d13f86da9bf709d7bbd243f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rindag-devs",
+        "ref": "single-header-snapshot",
+        "repo": "cplib",
+        "type": "github"
+      }
+    },
+    "cplibInitializers": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783963322,
+        "narHash": "sha256-m/+LhDVFkBpEfp3d9bE5bMqIww+lYyDoiW7KzFn/e5Q=",
+        "owner": "rindag-devs",
+        "repo": "cplib-initializers",
+        "rev": "b2707e36d4452fba305cff8759db4ad38a1a4024",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rindag-devs",
+        "repo": "cplib-initializers",
+        "type": "github"
+      }
+    },
+    "crane": {
+      "locked": {
+        "lastModified": 1785284101,
+        "narHash": "sha256-ghcXEpYEM4a7pbEkoqbn8c0ptJJqgGzuFiG3T6W5g4I=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "756d6d07c3818ea95d1e2cdac63fa7d02fe3e61b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "fenix": {
+      "inputs": {
+        "nixpkgs": [
+          "hull",
+          "nixpkgs"
+        ],
+        "rust-analyzer-src": "rust-analyzer-src"
+      },
+      "locked": {
+        "lastModified": 1785314864,
+        "narHash": "sha256-imz9J5iMNersDeQ1ymenFg35N6C2R3MCaGg2i0XCIrE=",
+        "owner": "nix-community",
+        "repo": "fenix",
+        "rev": "594418b2c9ea0731bee6988236ef5bfd97e81dca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "fenix",
+        "type": "github"
+      }
+    },
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1772408722,
+        "narHash": "sha256-rHuJtdcOjK7rAHpHphUb1iCvgkU3GpfvicLMwwnfMT0=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "f20dc5d9b8027381c474144ecabc9034d6a839a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "hull": {
+      "inputs": {
+        "cplib": [
+          "cplib"
+        ],
+        "cplibInitializers": "cplibInitializers",
+        "crane": "crane",
+        "fenix": "fenix",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "tola": "tola",
+        "typix": "typix",
+        "x86_64-linux-gnu217-cross": "x86_64-linux-gnu217-cross"
+      },
+      "locked": {
+        "lastModified": 1785321843,
+        "narHash": "sha256-b9xOMlo1P1egSe/kU+7/Ije/5vZuntMrbXR3kzuTr+A=",
+        "owner": "rindag-devs",
+        "repo": "hull",
+        "rev": "e9f1e380ea4e4aaff8fdd8c75f7c11b35a3a1d83",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rindag-devs",
+        "repo": "hull",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1772465433,
+        "narHash": "sha256-ywy9troNEfpgh0Ee+zaV1UTgU8kYBVKtvPSxh6clYGU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c581273b8d5bdf1c6ce7e0a54da9841e6a763913",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1772328832,
+        "narHash": "sha256-e+/T/pmEkLP6BHhYjx6GmwP5ivonQQn0bJdH9YrRB+Q=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "c185c7a5e5dd8f9add5b2f8ebeff00888b070742",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1785133411,
+        "narHash": "sha256-Yjv0WEg39KRYS0rBdTbu6Fc/or/ihAKk13W9sQ6VWd0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2f5a153c270b70cb0f8c11f46d96d6d3bc39f4e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cplib": "cplib",
+        "hull": "hull",
+        "nixpkgs": "nixpkgs_2"
+      }
+    },
+    "rust-analyzer-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785261141,
+        "narHash": "sha256-sA+DHPejWD68mLA7gtTiHGd5T41F6W+NKf0g+ibFCW4=",
+        "owner": "rust-lang",
+        "repo": "rust-analyzer",
+        "rev": "bec66814323579659ffd77c909b3d963af118ece",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rust-lang",
+        "ref": "nightly",
+        "repo": "rust-analyzer",
+        "type": "github"
+      }
+    },
+    "rust-overlay": {
+      "inputs": {
+        "nixpkgs": [
+          "hull",
+          "tola",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1772593411,
+        "narHash": "sha256-47WOnCSyOL6AghZiMIJaTLWM359DHe3be9R1cNCdGUE=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "a741b36b77440f5db15fcf2ab6d7d592d2f9ee8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "tola": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "nixpkgs": "nixpkgs",
+        "rust-overlay": "rust-overlay"
+      },
+      "locked": {
+        "lastModified": 1773855057,
+        "narHash": "sha256-zgPKsIRXp5na2d0X7j5+9xJBGFSlvIKIRmzVVo/dcLk=",
+        "owner": "tola-rs",
+        "repo": "tola-ssg",
+        "rev": "9adcff02f1b8f1682d74e039173a67869ad66ed2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tola-rs",
+        "ref": "v0.7.1",
+        "repo": "tola-ssg",
+        "type": "github"
+      }
+    },
+    "typix": {
+      "inputs": {
+        "nixpkgs": [
+          "hull",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1751013253,
+        "narHash": "sha256-P0n7lAITZiDy05bpEHzsrCMyd+kDXqAnjqXwYSaWWQk=",
+        "owner": "loqusion",
+        "repo": "typix",
+        "rev": "bddd0cbdc97f838602c664f6bd82c29d2522c8b8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loqusion",
+        "ref": "0.3.2",
+        "repo": "typix",
+        "type": "github"
+      }
+    },
+    "x86_64-linux-gnu217-cross": {
+      "inputs": {
+        "nixpkgs": [
+          "hull",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1780486946,
+        "narHash": "sha256-uBQp0qXbiJnMBoKJaQ1MfCI61+Y6/qxPFTPmhunaYuk=",
+        "owner": "aberter0x3f",
+        "repo": "x86_64-linux-gnu2.17-cross",
+        "rev": "d512a0f846d0be3500f4ca54134344337605f339",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aberter0x3f",
+        "repo": "x86_64-linux-gnu2.17-cross",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

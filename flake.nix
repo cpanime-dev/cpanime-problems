@@ -29,7 +29,6 @@
         "aarch64-darwin"
       ];
       forEachSystem = nixpkgs.lib.genAttrs supportedSystems;
-
     in
     {
       hullProblems = forEachSystem (
@@ -40,11 +39,16 @@
           problemDirs = builtins.filter (name: builtins.pathExists (./problems + "/${name}/problem.nix")) (
             builtins.attrNames entries
           );
+          problemBaseFun = import ./problemBase.nix;
         in
         builtins.listToAttrs (
           map (name: {
             inherit name;
-            value = (h.evalProblem (./problems + "/${name}/problem.nix") { });
+            value =
+              let
+                problemFun = import (./problems + "/${name}/problem.nix");
+              in
+              h.evalProblem (problemBaseFun name problemFun) { };
           }) problemDirs
         )
       );
